@@ -1,0 +1,607 @@
+<Response xmlns="http://live.veeroute.com/connect">
+   <Messages>
+      <Message id="asasd">
+         <Time>1458581763425</Time>
+         <ns2:Schedule xmlns:ns2="http://live.veeroute.com/mvideo">
+            <ns2:Runs>
+               <ns2:Run>
+                  <ns2:Date>22.03.2016</ns2:Date>
+                  <ns2:Name>2200066</ns2:Name>
+                  <ns2:Sequence>1</ns2:Sequence>
+                  <ns2:Orders>
+                     <ns2:Order id="1516439" xmlns="" xmlns:ns3="http://live.veeroute.com/connect">
+                        <ns2:OrderReference>C025_2200066_1</ns2:OrderReference>
+                        <ns2:Status>COMMITTED</ns2:Status>
+                        <ns2:AreaOfControlID>2</ns2:AreaOfControlID>
+                        <ns2:DurationDrop>00:10</ns2:DurationDrop>
+                        <ns2:Price>0.0</ns2:Price>
+                        <ns2:Client/>
+                        <ns2:Location>
+                           <ns2:Latitude>55.12417</ns2:Latitude>
+                           <ns2:Longitude>37.55833</ns2:Longitude>
+                           <ns2:Name>Рі.Р§РµС…РѕРІ, РїСЂРѕРјР·РѕРЅР° "РќРѕРІРѕСЃРµР»РєРё", РІР».11, СЃС‚СЂ,3</ns2:Name>
+                           <ns2:Address>Рі.Р§РµС…РѕРІ, РїСЂРѕРјР·РѕРЅР° "РќРѕРІРѕСЃРµР»РєРё", РІР».11, СЃС‚СЂ,3</ns2:Address>
+                        </ns2:Location>
+                        <ns2:Collection>false</ns2:Collection>
+                        <ns2:DynamicAttributes>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderItemDetails</ns2:Name>
+                              <ns2:Value><![CDATA[<orderDetails>
+<orderSum>0</orderSum>
+<priceSumEdited>false</priceSumEdited>
+<orderItems/>
+</orderDetails>]]></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>zndNumber</ns2:Name>
+                              <ns2:Value>C025_2200066_1</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderType</ns2:Name>
+                              <ns2:Value>3</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>typeCode</ns2:Name>
+                              <ns2:Value>1002</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderStatusDetails</ns2:Name>
+                              <ns2:Value>&lt;orderStatusDetails>&lt;/orderStatusDetails></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>uploadedDropWindow</ns2:Name>
+                              <ns2:Value>07:00 - 23:00</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>delivery</ns2:Name>
+                              <ns2:Value>C025</ns2:Value>
+                           </ns2:DynamicAttribute>
+                        </ns2:DynamicAttributes>
+                        <ns2:DropWindowStart>22.03.2016 08:39</ns2:DropWindowStart>
+                        <ns2:DropWindowEnd>22.03.2016 08:49</ns2:DropWindowEnd>
+                     </ns2:Order>
+                     <ns2:Order id="1516436" xmlns="" xmlns:ns3="http://live.veeroute.com/connect">
+                        <ns2:OrderReference>90046304</ns2:OrderReference>
+                        <ns2:Status>FAILED</ns2:Status>
+                        <ns2:AreaOfControlID>2</ns2:AreaOfControlID>
+                        <ns2:DurationDrop>00:10</ns2:DurationDrop>
+                        <ns2:Price>39896.0</ns2:Price>
+                        <ns2:Client>
+                           <ns2:Name>РљСЂР°Р±РѕРІ Р�Р·СЏ</ns2:Name>
+                           <ns2:ContactPerson>РљСЂР°Р±РѕРІ Р�Р·СЏ</ns2:ContactPerson>
+                        </ns2:Client>
+                        <ns2:Location>
+                           <ns2:Latitude>55.8625</ns2:Latitude>
+                           <ns2:Longitude>37.6641</ns2:Longitude>
+                           <ns2:Name>Рі РњРѕСЃРєРІР°, СѓР» Р�СЃРєСЂС‹, 13Рє1</ns2:Name>
+                           <ns2:Address>Рі РњРѕСЃРєРІР°, СѓР» Р�СЃРєСЂС‹, 13Рє1</ns2:Address>
+                        </ns2:Location>
+                        <ns2:Collection>true</ns2:Collection>
+                        <ns2:DynamicAttributes>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>additionalContactNumber</ns2:Name>
+                              <ns2:Value>&lt;view>+72353465475&lt;/view></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderPaymentStatus</ns2:Name>
+                              <ns2:Value>2</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>zndNumber</ns2:Name>
+                              <ns2:Value>2_6_19022016</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderType</ns2:Name>
+                              <ns2:Value>1</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderPaymentType</ns2:Name>
+                              <ns2:Value>&lt;view type="long" iconID="icon_type_payment" sequence="4">РќР°Р»РёС‡РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°&lt;/view></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>typeCode</ns2:Name>
+                              <ns2:Value>1010</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>zndNumberText</ns2:Name>
+                              <ns2:Value>90046304</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderItemDetails</ns2:Name>
+                              <ns2:Value><![CDATA[<orderDetails>
+<orderSum>0</orderSum>
+<priceSumEdited>false</priceSumEdited>
+<orderItems>
+<orderItem count="1" id="20735669" loadingPoint="C025" name="РљРѕС„РµРјРѕР»РєР° Bosch MKM6000" price="1592.0" priceSum="1592.0" type="1" wareCode="20003445"/>
+<orderItem count="1" id="20735670" loadingPoint="C025" name="RF Indesit IB 181" price="16392.0" priceSum="16392.0" type="1" wareCode="20025075"/>
+<orderItem count="1" id="20735671" loadingPoint="C025" name="VC Bosch BGS32002" price="11992.0" priceSum="11992.0" type="1" wareCode="20027841"/>
+<orderItem count="1" id="20735672" loadingPoint="S002" name="Р”РѕСЃС‚Р°РІРєР° V Р·РѕРЅР°" priceSum="0.0" type="2" wareCode="200036"/>
+<orderItem count="2" id="20735673" loadingPoint="C095" name="РњР¤РЈ HP DeskJet F2483" price="4960.0" priceSum="9920.0" type="1" wareCode="30011255"/>
+<orderItem count="1" id="20735679" loadingPoint="S002" name="РЈС‚РёР»РёР·Р°С†РёСЏ Р±С‹С‚РѕРІРѕР№ С‚РµС…РЅРёРєРё" priceSum="0.0" type="2" wareCode="807451"/>
+</orderItems>
+</orderDetails>]]></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>deliveryComment</ns2:Name>
+                              <ns2:Value>РћРїР»Р°С‚Р° РїСЂРё РїРѕР»СѓС‡РµРЅРёРё, СЃРєРёРґРєР° РїРѕ РїСЂРѕРјРѕРєРѕРґСѓ, СѓС‚РёР»РёР·Р°С†РёСЏ С‚РµР»РµРІРёР·РѕСЂР°</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>primaryPhone</ns2:Name>
+                              <ns2:Value>+76056345568</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderPaymentSum</ns2:Name>
+                              <ns2:Value>39896.0</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderStatusDetails</ns2:Name>
+                              <ns2:Value>&lt;orderStatusDetails>
+   &lt;causeID>CANCELLED&lt;/causeID>
+&lt;/orderStatusDetails></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>uploadedDropWindow</ns2:Name>
+                              <ns2:Value>10:00 - 21:00</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>delivery</ns2:Name>
+                              <ns2:Value>810498996</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>additionalAddress</ns2:Name>
+                              <ns2:Value>&lt;view>РїРѕРґСЉРµР·Рґ 4, РєРІ./РѕС„РёСЃ 2, СЌС‚Р°Р¶ 3, РєРѕРґ 2, РјРµС‚СЂРѕ РќР°С…РёРјРѕРІСЃРєРёР№ РџСЂРѕСЃРїРµРєС‚&lt;/view></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>techComment</ns2:Name>
+                              <ns2:Value>changed</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>clientType</ns2:Name>
+                              <ns2:Value>&lt;view type="short" iconID="icon_client" sequence="1">Р®СЂ. Р»РёС†Рѕ&lt;/view></ns2:Value>
+                           </ns2:DynamicAttribute>
+                        </ns2:DynamicAttributes>
+                        <ns2:DropWindowStart>22.03.2016 10:00</ns2:DropWindowStart>
+                        <ns2:DropWindowEnd>22.03.2016 10:10</ns2:DropWindowEnd>
+                     </ns2:Order>
+                     <ns2:Order id="1516435" xmlns="" xmlns:ns3="http://live.veeroute.com/connect">
+                        <ns2:OrderReference>90046302</ns2:OrderReference>
+                        <ns2:Status>COMMITTED</ns2:Status>
+                        <ns2:AreaOfControlID>2</ns2:AreaOfControlID>
+                        <ns2:DurationDrop>00:10</ns2:DurationDrop>
+                        <ns2:Price>39547.0</ns2:Price>
+                        <ns2:Client>
+                           <ns2:Name>Р‘Р°С‚С‹СЂРµРІ РђРЅС‚РѕРЅ</ns2:Name>
+                           <ns2:ContactPerson>Р‘Р°С‚С‹СЂРµРІ РђРЅС‚РѕРЅ</ns2:ContactPerson>
+                        </ns2:Client>
+                        <ns2:Location>
+                           <ns2:Latitude>55.7161</ns2:Latitude>
+                           <ns2:Longitude>37.6819</ns2:Longitude>
+                           <ns2:Name>Рі РњРѕСЃРєРІР°, СѓР» РњР°С€РёРЅРѕСЃС‚СЂРѕРµРЅРёСЏ 2-СЏ, 17СЃС‚СЂ2</ns2:Name>
+                           <ns2:Address>Рі РњРѕСЃРєРІР°, СѓР» РњР°С€РёРЅРѕСЃС‚СЂРѕРµРЅРёСЏ 2-СЏ, 17СЃС‚СЂ2</ns2:Address>
+                        </ns2:Location>
+                        <ns2:Collection>false</ns2:Collection>
+                        <ns2:DynamicAttributes>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>additionalContactNumber</ns2:Name>
+                              <ns2:Value>&lt;view>+72342346547&lt;/view></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderPaymentStatus</ns2:Name>
+                              <ns2:Value>2</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>zndNumber</ns2:Name>
+                              <ns2:Value>2_4_19022016</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderType</ns2:Name>
+                              <ns2:Value>1</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderPaymentType</ns2:Name>
+                              <ns2:Value>&lt;view type="long" iconID="icon_type_payment" sequence="4">РќР°Р»РёС‡РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°&lt;/view></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>typeCode</ns2:Name>
+                              <ns2:Value>1010</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>zndNumberText</ns2:Name>
+                              <ns2:Value>90046302</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderItemDetails</ns2:Name>
+                              <ns2:Value><![CDATA[<orderDetails>
+<orderSum>0</orderSum>
+<priceSumEdited>false</priceSumEdited>
+<orderItems>
+<orderItem count="1" id="20735651" loadingPoint="C025" name="РљРѕС„РµРјРѕР»РєР° Bosch MKM6000" price="1890.0" priceSum="1890.0" type="1" wareCode="20003445"/>
+<orderItem count="1" id="20735652" loadingPoint="C095" name="РњР¤РЈ HP DeskJet F2483" price="6200.0" priceSum="6200.0" type="1" wareCode="30011255"/>
+<orderItem count="1" id="20735653" loadingPoint="C025" name="RF Indesit IB 181" price="19465.0" priceSum="19465.0" type="1" wareCode="20025075"/>
+<orderItem count="1" id="20735654" loadingPoint="C025" name="VC Bosch BGS32002" price="11992.0" priceSum="11992.0" type="1" wareCode="20027841"/>
+<orderItem count="1" id="20735655" loadingPoint="S002" name="Р”РѕСЃС‚Р°РІРєР° V Р·РѕРЅР°" priceSum="0.0" type="2" wareCode="200036"/>
+<orderItem count="1" id="20735656" loadingPoint="S002" name="РђРџРљ Р’РµСЃРµРЅРЅСЏСЏ 2015 500 СЂСѓР±." priceSum="0.0" type="3" wareCode="500853"/>
+</orderItems>
+</orderDetails>]]></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>deliveryComment</ns2:Name>
+                              <ns2:Value>РЈ РєР»РёРµРЅС‚Р° Р·Р°Р±СЂР°С‚СЊ Рё РїСЂРѕРєР°С‚Р°С‚СЊ С‡РµСЂРµР· С‚РµСЂРј. 2 РџРљ + 5 РђРџРљ "РћСЃРµРЅРЅСЏСЏ СѓР¶Рµ". РџСЂРё РЅРµСЂР°Р±. С‚РµСЂРј. РїСЂРѕРІРµСЃС‚Рё РіРѕР»РѕСЃ. Р°РІС‚РѕСЂРёР·Р°С†РёСЋ РїРѕ РёРЅСЃС‚СЂСѓРєС†РёРё, Р·Р°РїРёСЃР°С‚СЊ РїРѕР»СѓС‡РµРЅРЅС‹Рµ РїРѕ С‚РµР». РєРѕРґС‹ РІ 2 Р‘Р»Р°РЅРєР° Р“Рђ: РґР»СЏ РєР»РёРµРЅС‚Р° Рё РґР»СЏ РєР°СЃСЃС‹. Р’СЃРµ РџРљ, С‚РѕРІ. С‡РµРє СЃ РїРѕРґРїРёСЃСЊСЋ РєР»РёРµРЅС‚Р° СЃРґР°С‚СЊ РІ РєР°СЃСЃСѓ! Р’Р°Р¶РЅРѕ РЅРµ РїСЂРёРЅРёРјР°С‚СЊ РџРљ Рё РђРєС†РџРљ Р±РѕР»РµРµ С‡РµРј СѓРєР°Р·Р°РЅРѕ!
+
+РћРїР»Р°С‚Р° РїСЂРё РїРѕР»СѓС‡РµРЅРёРё, СЃРєРёРґРєР° РЅР° РєРѕРїР»РµРєС‚ + РћРїР»Р°С‚Р° РђРџРљ Рё РџРљ + РІС‹РґР°С‚СЊ 1 РђРџРљ</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>primaryPhone</ns2:Name>
+                              <ns2:Value>+72343423534</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderPaymentSum</ns2:Name>
+                              <ns2:Value>39547.0</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>uploadedDropWindow</ns2:Name>
+                              <ns2:Value>10:00 - 21:00</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderStatusDetails</ns2:Name>
+                              <ns2:Value>&lt;orderStatusDetails>&lt;/orderStatusDetails></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>delivery</ns2:Name>
+                              <ns2:Value>810498994</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>additionalAddress</ns2:Name>
+                              <ns2:Value>&lt;view>РїРѕРґСЉРµР·Рґ 3, РєРІ./РѕС„РёСЃ 5, СЌС‚Р°Р¶ 5, РєРѕРґ 2, РјРµС‚СЂРѕ РђРЅРЅРёРЅРѕ&lt;/view></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>clientType</ns2:Name>
+                              <ns2:Value>&lt;view type="short" iconID="icon_client" sequence="1">Р®СЂ. Р»РёС†Рѕ&lt;/view></ns2:Value>
+                           </ns2:DynamicAttribute>
+                        </ns2:DynamicAttributes>
+                        <ns2:DropWindowStart>22.03.2016 10:31</ns2:DropWindowStart>
+                        <ns2:DropWindowEnd>22.03.2016 10:41</ns2:DropWindowEnd>
+                     </ns2:Order>
+                     <ns2:Order id="1516438" xmlns="" xmlns:ns3="http://live.veeroute.com/connect">
+                        <ns2:OrderReference>90046308</ns2:OrderReference>
+                        <ns2:Status>COMMITTED</ns2:Status>
+                        <ns2:AreaOfControlID>2</ns2:AreaOfControlID>
+                        <ns2:DurationDrop>00:10</ns2:DurationDrop>
+                        <ns2:Price>0.0</ns2:Price>
+                        <ns2:Client>
+                           <ns2:Name>Р’Р°РіРЅРµСЂ РўРћРјР°СЂР°</ns2:Name>
+                           <ns2:ContactPerson>Р’Р°РіРЅРµСЂ РўРћРјР°СЂР°</ns2:ContactPerson>
+                        </ns2:Client>
+                        <ns2:Location>
+                           <ns2:Latitude>55.8117</ns2:Latitude>
+                           <ns2:Longitude>37.6898</ns2:Longitude>
+                           <ns2:Name>Рі РњРѕСЃРєРІР°, СѓР» РћР»РµРЅСЊСЏ Р‘., 20</ns2:Name>
+                           <ns2:Address>Рі РњРѕСЃРєРІР°, СѓР» РћР»РµРЅСЊСЏ Р‘., 20</ns2:Address>
+                        </ns2:Location>
+                        <ns2:Collection>false</ns2:Collection>
+                        <ns2:DynamicAttributes>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>primaryComment</ns2:Name>
+                              <ns2:Value>РљСЂРµРґРёС‚ OnLine РћРґРѕР±СЂРµРЅРѕ Р±Р°РЅРєРѕРј</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>additionalContactNumber</ns2:Name>
+                              <ns2:Value>&lt;view>+74654657568&lt;/view></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderPaymentStatus</ns2:Name>
+                              <ns2:Value>2</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>zndNumber</ns2:Name>
+                              <ns2:Value>2_10_19022016</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderType</ns2:Name>
+                              <ns2:Value>1</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderPaymentType</ns2:Name>
+                              <ns2:Value>&lt;view type="long" iconID="icon_type_payment" sequence="4">РљСЂРµРґРёС‚&lt;/view></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>typeCode</ns2:Name>
+                              <ns2:Value>1010</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>zndNumberText</ns2:Name>
+                              <ns2:Value>90046308</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderItemDetails</ns2:Name>
+                              <ns2:Value><![CDATA[<orderDetails>
+<orderSum>0</orderSum>
+<priceSumEdited>false</priceSumEdited>
+<orderItems>
+<orderItem count="1" id="20735701" loadingPoint="S002" name="Р”РѕСЃС‚Р°РІРєР° V Р·РѕРЅР°" priceSum="0.0" type="2" wareCode="200036"/>
+<orderItem count="1" id="20735702" loadingPoint="C025" name="RF Indesit IB 181" price="20490.0" priceSum="20490.0" type="1" wareCode="20025075"/>
+<orderItem count="1" id="20735703" loadingPoint="C025" name="VC Bosch BGS32002" price="14990.0" priceSum="14990.0" type="1" wareCode="20027841"/>
+<orderItem count="2" id="20735704" loadingPoint="C095" name="РњР¤РЈ HP DeskJet F2483" price="6200.0" priceSum="12400.0" type="1" wareCode="30011255"/>
+</orderItems>
+</orderDetails>]]></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>deliveryComment</ns2:Name>
+                              <ns2:Value>РєСЂРµРґРёС‚ РѕРґРѕР±СЂРµРЅ Р±Р°РЅРєРѕРј, РїСЂРµРЅРµСЃС‚Рё 2РќР”Р¤Р»+ РїР°СЃРїРѕСЂС‚</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>primaryPhone</ns2:Name>
+                              <ns2:Value>+71243465475</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>uploadedDropWindow</ns2:Name>
+                              <ns2:Value>10:00 - 21:00</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderStatusDetails</ns2:Name>
+                              <ns2:Value>&lt;orderStatusDetails>&lt;/orderStatusDetails></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>delivery</ns2:Name>
+                              <ns2:Value>810499000</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>additionalAddress</ns2:Name>
+                              <ns2:Value>&lt;view>РїРѕРґСЉРµР·Рґ 645, РєРІ./РѕС„РёСЃ 3456, СЌС‚Р°Р¶ 3, РєРѕРґ 76, РјРµС‚СЂРѕ Р‘РѕС‚Р°РЅРёС‡РµСЃРєРёР№ РЎР°Рґ&lt;/view></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>clientType</ns2:Name>
+                              <ns2:Value>&lt;view type="short" iconID="icon_client" sequence="1">Р®СЂ. Р»РёС†Рѕ&lt;/view></ns2:Value>
+                           </ns2:DynamicAttribute>
+                        </ns2:DynamicAttributes>
+                        <ns2:DropWindowStart>22.03.2016 10:55</ns2:DropWindowStart>
+                        <ns2:DropWindowEnd>22.03.2016 11:05</ns2:DropWindowEnd>
+                     </ns2:Order>
+                     <ns2:Order id="1516437" xmlns="" xmlns:ns3="http://live.veeroute.com/connect">
+                        <ns2:OrderReference>90046306</ns2:OrderReference>
+                        <ns2:Status>COMMITTED</ns2:Status>
+                        <ns2:AreaOfControlID>2</ns2:AreaOfControlID>
+                        <ns2:DurationDrop>00:10</ns2:DurationDrop>
+                        <ns2:Price>0.0</ns2:Price>
+                        <ns2:Client>
+                           <ns2:Name>Р•СЂС€СЂРІ РљСЂР°РјРёРє</ns2:Name>
+                           <ns2:ContactPerson>Р•СЂС€СЂРІ РљСЂР°РјРёРє</ns2:ContactPerson>
+                        </ns2:Client>
+                        <ns2:Location>
+                           <ns2:Latitude>55.6809</ns2:Latitude>
+                           <ns2:Longitude>37.7595</ns2:Longitude>
+                           <ns2:Name>Рі РњРѕСЃРєРІР°, СѓР» РќРѕРІРѕСЂРѕСЃСЃРёР№СЃРєР°СЏ, 4СЃС‚СЂ2</ns2:Name>
+                           <ns2:Address>Рі РњРѕСЃРєРІР°, СѓР» РќРѕРІРѕСЂРѕСЃСЃРёР№СЃРєР°СЏ, 4СЃС‚СЂ2</ns2:Address>
+                        </ns2:Location>
+                        <ns2:Collection>false</ns2:Collection>
+                        <ns2:DynamicAttributes>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>additionalContactNumber</ns2:Name>
+                              <ns2:Value>&lt;view>+74654657568&lt;/view></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderItemDetails</ns2:Name>
+                              <ns2:Value><![CDATA[<orderDetails>
+<orderSum>0</orderSum>
+<priceSumEdited>false</priceSumEdited>
+<orderItems>
+<orderItem count="1" id="20735686" loadingPoint="S002" name="Р”РѕСЃС‚Р°РІРєР° V Р·РѕРЅР°" priceSum="0.0" type="2" wareCode="200036"/>
+<orderItem count="1" id="20735688" loadingPoint="C025" name="RF Indesit IB 181" price="20490.0" priceSum="20490.0" type="1" wareCode="20025075"/>
+<orderItem count="1" id="20735689" loadingPoint="C095" name="VC Bosch BGS32002" price="14990.0" priceSum="14990.0" type="1" wareCode="20027841"/>
+<orderItem count="2" id="20735690" loadingPoint="C095" name="РњР¤РЈ HP DeskJet F2483" price="6200.0" priceSum="12400.0" type="1" wareCode="30011255"/>
+</orderItems>
+</orderDetails>]]></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>deliveryComment</ns2:Name>
+                              <ns2:Value>РЈ РєР»РёРµРЅС‚Р° Р·Р°Р±СЂР°С‚СЊ Рё РїСЂРѕРєР°С‚Р°С‚СЊ С‡РµСЂРµР· С‚РµСЂРј. 1 РїРѕРґР°СЂРѕС‡РЅСѓСЋ РєР°СЂС‚Сѓ(С‹) + РґРѕРїР»Р°С‚Р° РЅР°Р» 0 СЂСѓР±. Р’СЃРµ РџРљ, С‚РѕРІ. С‡РµРє СЃ РїРѕРґРїРёСЃСЊСЋ РєР»РёРµРЅС‚Р° СЃРґР°С‚СЊ РІ РєР°СЃСЃСѓ! Р’Р°Р¶РЅРѕ РЅРµ РїСЂРёРЅРёРјР°С‚СЊ РџРљ Р±РѕР»РµРµ С‡РµРј СѓРєР°Р·Р°РЅРѕ!</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderPaymentStatus</ns2:Name>
+                              <ns2:Value>2</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>primaryPhone</ns2:Name>
+                              <ns2:Value>+71243465475</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>zndNumber</ns2:Name>
+                              <ns2:Value>2_8_19022016</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderType</ns2:Name>
+                              <ns2:Value>1</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderPaymentType</ns2:Name>
+                              <ns2:Value>&lt;view type="long" iconID="icon_type_payment" sequence="4">РќР°Р»РёС‡РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°&lt;/view></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>typeCode</ns2:Name>
+                              <ns2:Value>1010</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>uploadedDropWindow</ns2:Name>
+                              <ns2:Value>10:00 - 21:00</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderStatusDetails</ns2:Name>
+                              <ns2:Value>&lt;orderStatusDetails>&lt;/orderStatusDetails></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>zndNumberText</ns2:Name>
+                              <ns2:Value>90046306</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>delivery</ns2:Name>
+                              <ns2:Value>810498998</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>additionalAddress</ns2:Name>
+                              <ns2:Value>&lt;view>РїРѕРґСЉРµР·Рґ 6, РєРІ./РѕС„РёСЃ 5, СЌС‚Р°Р¶ 3, РєРѕРґ 76, РјРµС‚СЂРѕ РђР»РµРєСЃР°РЅРґСЂРѕРІСЃРєРёР№ РЎР°Рґ&lt;/view></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>clientType</ns2:Name>
+                              <ns2:Value>&lt;view type="short" iconID="icon_client" sequence="1">Р®СЂ. Р»РёС†Рѕ&lt;/view></ns2:Value>
+                           </ns2:DynamicAttribute>
+                        </ns2:DynamicAttributes>
+                        <ns2:DropWindowStart>22.03.2016 11:25</ns2:DropWindowStart>
+                        <ns2:DropWindowEnd>22.03.2016 11:35</ns2:DropWindowEnd>
+                     </ns2:Order>
+                     <ns2:Order id="1516434" xmlns="" xmlns:ns3="http://live.veeroute.com/connect">
+                        <ns2:OrderReference>90046300</ns2:OrderReference>
+                        <ns2:Status>COMMITTED</ns2:Status>
+                        <ns2:AreaOfControlID>2</ns2:AreaOfControlID>
+                        <ns2:DurationDrop>00:10</ns2:DurationDrop>
+                        <ns2:Price>43670.0</ns2:Price>
+                        <ns2:Client>
+                           <ns2:Name>РљР°СЂРјР°РЅРѕРІ Р‘Р°С‚С‹СЂ</ns2:Name>
+                           <ns2:ContactPerson>РљР°СЂРјР°РЅРѕРІ Р‘Р°С‚С‹СЂ</ns2:ContactPerson>
+                        </ns2:Client>
+                        <ns2:Location>
+                           <ns2:Latitude>55.7207</ns2:Latitude>
+                           <ns2:Longitude>37.7914</ns2:Longitude>
+                           <ns2:Name>Рі РњРѕСЃРєРІР°, СѓР» РџР°РїРµСЂРЅРёРєР°, 12</ns2:Name>
+                           <ns2:Address>Рі РњРѕСЃРєРІР°, СѓР» РџР°РїРµСЂРЅРёРєР°, 12</ns2:Address>
+                        </ns2:Location>
+                        <ns2:Collection>false</ns2:Collection>
+                        <ns2:DynamicAttributes>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>additionalContactNumber</ns2:Name>
+                              <ns2:Value>&lt;view>+72342346547&lt;/view></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderPaymentStatus</ns2:Name>
+                              <ns2:Value>2</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>zndNumber</ns2:Name>
+                              <ns2:Value>2_2_19022016</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderType</ns2:Name>
+                              <ns2:Value>1</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderPaymentType</ns2:Name>
+                              <ns2:Value>&lt;view type="long" iconID="icon_type_payment" sequence="4">РќР°Р»РёС‡РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°&lt;/view></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>typeCode</ns2:Name>
+                              <ns2:Value>1010</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>zndNumberText</ns2:Name>
+                              <ns2:Value>90046300</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderItemDetails</ns2:Name>
+                              <ns2:Value><![CDATA[<orderDetails>
+<orderSum>0</orderSum>
+<priceSumEdited>false</priceSumEdited>
+<orderItems>
+<orderItem count="1" id="20735636" loadingPoint="C025" name="РљРѕС„РµРјРѕР»РєР° Bosch MKM6000" price="1990.0" priceSum="1990.0" type="1" wareCode="20003445"/>
+<orderItem count="1" id="20735637" loadingPoint="C095" name="РњР¤РЈ HP DeskJet F2483" price="6200.0" priceSum="6200.0" type="1" wareCode="30011255"/>
+<orderItem count="1" id="20735638" loadingPoint="C025" name="RF Indesit IB 181" price="20490.0" priceSum="20490.0" type="1" wareCode="20025075"/>
+<orderItem count="1" id="20735639" loadingPoint="C095" name="VC Bosch BGS32002" price="14990.0" priceSum="14990.0" type="1" wareCode="20027841"/>
+<orderItem count="1" id="20735640" loadingPoint="S002" name="Р”РѕСЃС‚Р°РІРєР° V Р·РѕРЅР°" priceSum="0.0" type="2" wareCode="200036"/>
+</orderItems>
+</orderDetails>]]></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>deliveryComment</ns2:Name>
+                              <ns2:Value>РћРїР»Р°С‚Р° РїСЂРё РїРѕР»СѓС‡РµРЅРёРё</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>primaryPhone</ns2:Name>
+                              <ns2:Value>+70789678565</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderPaymentSum</ns2:Name>
+                              <ns2:Value>43670.0</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>uploadedDropWindow</ns2:Name>
+                              <ns2:Value>10:00 - 21:00</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderStatusDetails</ns2:Name>
+                              <ns2:Value>&lt;orderStatusDetails>&lt;/orderStatusDetails></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>delivery</ns2:Name>
+                              <ns2:Value>810498992</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>additionalAddress</ns2:Name>
+                              <ns2:Value>&lt;view>РїРѕРґСЉРµР·Рґ 6, РєРІ./РѕС„РёСЃ 45, СЌС‚Р°Р¶ 5, РєРѕРґ 54, РјРµС‚СЂРѕ РђСЌСЂРѕРїРѕСЂС‚&lt;/view></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>clientType</ns2:Name>
+                              <ns2:Value>&lt;view type="short" iconID="icon_client" sequence="1">Р®СЂ. Р»РёС†Рѕ&lt;/view></ns2:Value>
+                           </ns2:DynamicAttribute>
+                        </ns2:DynamicAttributes>
+                        <ns2:DropWindowStart>22.03.2016 11:45</ns2:DropWindowStart>
+                        <ns2:DropWindowEnd>22.03.2016 11:55</ns2:DropWindowEnd>
+                     </ns2:Order>
+                     <ns2:Order id="1516440" xmlns="" xmlns:ns3="http://live.veeroute.com/connect">
+                        <ns2:OrderReference>S002_2200066_10</ns2:OrderReference>
+                        <ns2:Status>COMMITTED</ns2:Status>
+                        <ns2:AreaOfControlID>2</ns2:AreaOfControlID>
+                        <ns2:DurationDrop>00:10</ns2:DurationDrop>
+                        <ns2:Price>0.0</ns2:Price>
+                        <ns2:Client/>
+                        <ns2:Location>
+                           <ns2:Latitude>55.76</ns2:Latitude>
+                           <ns2:Longitude>37.7381</ns2:Longitude>
+                           <ns2:Name>Рі.РњРѕСЃРєРІР°, РїСЂ-С‚ Р‘СѓРґРµРЅРЅРѕРіРѕ, 51</ns2:Name>
+                           <ns2:Address>Рі.РњРѕСЃРєРІР°, РїСЂ-С‚ Р‘СѓРґРµРЅРЅРѕРіРѕ, 51</ns2:Address>
+                        </ns2:Location>
+                        <ns2:Collection>false</ns2:Collection>
+                        <ns2:DynamicAttributes>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderItemDetails</ns2:Name>
+                              <ns2:Value><![CDATA[<orderDetails>
+<orderSum>0</orderSum>
+<priceSumEdited>false</priceSumEdited>
+<orderItems/>
+</orderDetails>]]></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>zndNumber</ns2:Name>
+                              <ns2:Value>S002_2200066_10</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderType</ns2:Name>
+                              <ns2:Value>3</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>typeCode</ns2:Name>
+                              <ns2:Value>1001</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>orderStatusDetails</ns2:Name>
+                              <ns2:Value>&lt;orderStatusDetails>&lt;/orderStatusDetails></ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>uploadedDropWindow</ns2:Name>
+                              <ns2:Value>07:00 - 23:00</ns2:Value>
+                           </ns2:DynamicAttribute>
+                           <ns2:DynamicAttribute>
+                              <ns2:Name>delivery</ns2:Name>
+                              <ns2:Value>S002</ns2:Value>
+                           </ns2:DynamicAttribute>
+                        </ns2:DynamicAttributes>
+                        <ns2:DropWindowStart>22.03.2016 12:07</ns2:DropWindowStart>
+                        <ns2:DropWindowEnd>22.03.2016 12:17</ns2:DropWindowEnd>
+                     </ns2:Order>
+                  </ns2:Orders>
+                  <ns2:Route>
+                     <ns2:Polyline></ns2:Polyline>
+                  </ns2:Route>
+               </ns2:Run>
+            </ns2:Runs>
+         </ns2:Schedule>
+      </Message>
+   </Messages>
+</Response>
